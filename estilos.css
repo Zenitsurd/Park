@@ -1,0 +1,215 @@
+  @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+/*Unversal*/
+:root{
+    --font: #DC143C;
+    --secun: #008080;
+    --prime: #4169E1;
+    --negro: #000000; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+/*menu*/
+
+.contenedor-menu{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-titulo{
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+span{
+    font-size: 1.9rem;
+    color: var(--prime);
+}
+
+.contenedor-titulo h1{
+    color: white;
+}
+ 
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+}
+
+header{
+    background: url(Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.flotar{
+    position: relative;
+}
+
+.left{
+    position: absolute;
+    animation: mover 2s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+      top: 0;
+    }
+    to {
+      top: 10rem;
+    }
+  }
+
+.contenedor-titular{
+    color: white;
+    font-size: 2rem;
+    margin-left: 7rem;
+    margin-top: 15rem;
+    margin-right: 90rem;
+}
+
+.ver-mas-btn{
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  
+  .ver-mas-btn span {
+    margin-left: .5rem;
+    color: white;
+  }
+  
+  .audio{
+    display: flex;
+    justify-content: right;
+    margin-top: 52rem;
+    margin-right: 2rem;
+  }
+
+
+  /*sobre nosotros*/
+
+  .contenedor-nosotros h3{
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .nosotros p{
+    width: 60%;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .pa{
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  iframe{
+    margin-left: 35rem;
+  }
+
+
+  /*Seccion servicios*/
+
+.cont-service h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.contenedor-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contenedor-fondo{
+    background: url(Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 2rem;
+}
+
+.flotando{
+    position: relative;
+}
+
+.izquierda{
+    position: absolute;
+    animation: movimiento 2s infinite alternate;
+}
+
+@keyframes movimiento {
+    from {
+      top: 0;
+    }
+    to {
+      top: 8rem;
+    }
+  }
+
+/*contacto*/
+
+.contenedor-contacto h3{
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*footer*/
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background: var(--negro);
+    padding: 4rem;
+}
+
+.creadores{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
